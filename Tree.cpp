@@ -6,7 +6,7 @@ void print_node(int x) {
     cout << ' ' << x;
 }
 
-void Tree::printtree(TreeNode* top) {
+void Tree::printtree(TreeNode* top) {//если кому-нибудь это поможет, то эта самая функция, выполнение которой я хочу реализовать
     if (top != NULL) {
         printtree(top->Left);
         print_node(top->Data);
