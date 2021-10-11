@@ -7,7 +7,7 @@ using namespace std;
 
 class TreeNode
 {
-    friend class Tree;
+    friend class Tree; //само дерево. this tree
 private:
     int Data;                     
     TreeNode* Left, * Right;
